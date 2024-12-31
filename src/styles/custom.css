@@ -1,0 +1,78 @@
+/* src/styles/custom.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Layout Styles */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Header Styles */
+.navbar {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 1rem 0 !important;
+  background: linear-gradient(90deg, #ff5d5d, #f869c3); 
+  color: rgb(0, 0, 0);
+}
+
+.navbar .container-fluid {
+  width: 100% !important;
+  margin: 0 !important;
+
+}
+
+/* Main Content Styles */
+main {
+  background: linear-gradient(90deg, #dedcdc, #edde99); 
+  padding: 20px; 
+}
+
+/* Footer Styles */
+footer {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 2rem 0 !important;
+  background-color: #343a40; 
+  color: white;
+}
+
+footer .container-fluid {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Product Card Styles */
+.card {
+  background-color: white; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.product-image {
+  width: 100%;  
+  height: auto;  
+  max-height: 400px;  
+  object-fit: cover;  
+  border-radius: 8px;  
+}
+
+/* Add hover effect for links */
+a {
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #4a90e2; 
+}
+  
+  
